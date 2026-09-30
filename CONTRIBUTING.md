@@ -44,6 +44,19 @@ You can also do all of this in the GitHub website: click **Fork**, edit files in
 
 For anything bigger than a small fix, **open an issue first** to describe what you want to do. The maintainer might already be working on it, or have context that saves you time.
 
+### Working from shared storage
+
+Many facilities keep everything on network storage (Avid NEXIS, SMB or NFS shares). Git works there, with two catches:
+
+- **Scripts lose their "executable" flag.** These volumes don't keep Unix permissions, so git can't see that a file such as `build.sh` or `install.sh` should be runnable. It commits the file as a plain file, and it then fails with `Permission denied` for everyone else, including the release build. When you add or rename a script, set the flag in git itself:
+
+  ```bash
+  git update-index --chmod=+x path/to/script.sh
+  git ls-files -s path/to/script.sh   # should start with 100755
+  ```
+
+- **macOS adds hidden `._` files** next to your files on some shares. They're metadata, not your work. The standard `.gitignore` already skips them; if one shows up in `git status`, leave it out of your commit.
+
 ## What makes a good pull request
 
 - **One change per PR.** A bug fix and a new feature are two PRs.
