@@ -1,0 +1,110 @@
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a community repo! Please read [Proposing a new repo](https://github.com/flamelogik/.github/blob/main/PROPOSING_A_REPO.md) first.
+        Proposals stay open for community comment for at least 7 days before an owner decides.
+  - type: input
+    id: name
+    attributes:
+      label: Proposed repo name
+      description: Lowercase with hyphens
+      placeholder: e.g. matchbox-film-grain
+    validations:
+      required: true
+  - type: input
+    id: summary
+    attributes:
+      label: One-line description
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      multiple: true
+      options:
+        - Python hook / script
+        - Matchbox shader(s)
+        - OpenFX plugin
+        - Standalone tool / app
+        - Documentation / guides
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: What part of the Flame workflow it's for. Pick every one that applies.
+      multiple: true
+      options:
+        - Timeline
+        - Batch
+        - Color
+        - Tracking
+        - Keying / compositing
+        - Conform / import / export
+        - Open Clip
+        - Publish (to other tools and pipelines)
+        - Pipeline (render, farm, project setup, delivery)
+        - UI / workflow helpers
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve for Flame artists?
+      description: Who would use it, and why would it help beyond your own facility?
+    validations:
+      required: true
+  - type: input
+    id: compatibility
+    attributes:
+      label: Target Flame versions and OS
+      placeholder: e.g. Flame 2025+, macOS and Rocky Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      options:
+        - MIT (default)
+        - Other open-source license (explain below)
+    validations:
+      required: true
+  - type: input
+    id: maintainer
+    attributes:
+      label: Maintainer(s)
+      description: GitHub handles of who will look after it (usually you)
+      placeholder: "@your-handle"
+    validations:
+      required: true
+  - type: input
+    id: existing
+    attributes:
+      label: Existing code (if any)
+      description: Link to where it lives now. Existing personal repos can be transferred in with their history.
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Provenance and anything else
+      description: Is any of the code ported or adapted from elsewhere (Shadertoy, forums, other projects)? What are those licenses? Any other details for reviewers.
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Confirmations
+      options:
+        - label: I've checked there's no existing community repo that does this
+          required: true
+        - label: It contains no client media, secrets or Autodesk-proprietary material
+          required: true
+        - label: For compiled tools, the full source will be in the repo and releases will be built by GitHub Actions
+          required: false
+        - label: I'll follow the Code of Conduct and the repo standards
+          required: true

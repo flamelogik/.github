@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🙏 Questions and help
+    url: https://github.com/orgs/flamelogik/discussions/categories/q-a
+    about: Ask how to use a tool in Discussions → Q&A
+  - name: 💡 Propose a new community repo
+    url: https://github.com/orgs/flamelogik/discussions/categories/repo-proposals
+    about: Pitch a new tool for the community to build together
+  - name: 🔥 Logik forum
+    url: "https://forum.logik.tv/"
+    about: General Flame discussion with the Logik community

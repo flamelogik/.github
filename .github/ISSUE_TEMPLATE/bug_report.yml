@@ -1,0 +1,60 @@
+name: 🐛 Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Details about your Flame setup make bugs *much* faster to fix.
+        **Don't include client media or confidential information** in screenshots or logs.
+  - type: input
+    id: flame-version
+    attributes:
+      label: Flame version
+      description: Found under Flame → About Flame
+      placeholder: e.g. 2026.1
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Rocky Linux
+        - Other Linux
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: e.g. macOS 15.6, Rocky Linux 9.4
+  - type: input
+    id: tool-version
+    attributes:
+      label: Tool version or commit
+      description: Release tag (e.g. v1.2.0) or "latest main"
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a Batch with...
+        2. Right-click and choose...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output / logs
+      description: Paste any errors from the Flame shell or console. This is formatted as code automatically.
+      render: shell
