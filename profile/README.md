@@ -1,6 +1,6 @@
 ## Logik: community tools for Autodesk Flame
 
-Welcome to the GitHub home of **[Logik](https://logik.tv)**, the volunteer-run user group for Autodesk Flame artists. The Python hooks, Matchbox shaders, OpenFX plugins and tools here are built by Flame artists and shared with the whole community.
+Welcome to the GitHub home of **[Logik](https://logik.tv)**, the volunteer-run user group for Autodesk Flame artists. The tools here are built by Flame artists and shared with the whole community.
 
 **🔧 Use the tools.** Browse the repos below. Each README lists the tested Flame versions and install steps. Every repo is tagged by area, so you can jump straight to
 [timeline](https://github.com/orgs/flamelogik/repositories?q=topic%3Aflame-timeline) ·
