@@ -20,6 +20,9 @@ or by kind:
 [standalone tools](https://github.com/orgs/flamelogik/repositories?q=topic%3Aflame-tool) ·
 [docs](https://github.com/orgs/flamelogik/repositories?q=topic%3Adocumentation).
 
+**🔗 Flame tools hosted elsewhere.** Some well-known community tools live in their authors' own accounts. We link to them rather than mirror them, so you always get the current version.
+- [flameTimewarpML](https://github.com/talosh/flameTimewarpML): machine-learning timewarp and frame interpolation for Flame, by Andriy Toloshny. MIT licensed and actively maintained.
+
 **🙋 Get help or share ideas.** Visit [Discussions](https://github.com/orgs/flamelogik/discussions) for Q&A, ideas and show-and-tell. General Flame talk lives on the [Logik forum](https://forum.logik.tv/) and the [Logik Discord](https://discord.com/invite/y9ZQFZY2BA).
 
 **🤝 Contribute.** Fix a bug, improve docs or test on your setup. Read the [contributing guide](https://github.com/flamelogik/.github/blob/main/CONTRIBUTING.md). No GitHub experience needed.
