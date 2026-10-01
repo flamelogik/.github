@@ -1,11 +1,12 @@
-title: "[Proposal] "
+title: "[Project] "
 labels: ["proposal"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for proposing a community repo! Please read [Proposing a new repo](https://github.com/flamelogik/.github/blob/main/PROPOSING_A_REPO.md) first.
-        Proposals stay open for community comment for at least 7 days before an owner decides.
+        Thanks for bringing a project to the community! This form is for a tool or project that you, or someone you name, will build and maintain.
+        **Just have an idea** you'd like someone to build? Post it in Discussions → Ideas instead. No form, no commitment.
+        Please read [Sharing a project](https://github.com/flamelogik/.github/blob/main/PROPOSING_A_REPO.md) first. Submissions stay open for community comment for at least 7 days before an owner decides.
   - type: input
     id: name
     attributes:

@@ -9,7 +9,7 @@ Thanks for helping. These tools exist because Flame artists share what they buil
 - **Test** a tool on a Flame version or OS that's missing from its compatibility table, and report back.
 - **Fix bugs or add features** through a pull request.
 - **Answer questions** in [Discussions → Q&A](https://github.com/orgs/flamelogik/discussions).
-- **Propose a new tool** for the community. See [Proposing a new repo](PROPOSING_A_REPO.md).
+- **Bring your own tool** into the org. See [Sharing a project](PROPOSING_A_REPO.md). Just have an idea? Post it in Discussions → Ideas.
 
 ## How contributions work
 
