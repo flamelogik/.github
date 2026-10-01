@@ -11,7 +11,7 @@ Built a tool, script, shader collection or plugin, or building one, that you'd l
 - Not sure it's ready? Post it in **Discussions → Ideas** to get feedback before sharing it here.
 
 ## 2. Share it
-Go to [Discussions → Share a Project](https://github.com/orgs/flamelogik/discussions/categories/share-a-project) and click **New discussion**. The form asks for:
+Go to [Discussions → Share a Project](https://github.com/orgs/flamelogik/discussions/categories/share-a-project) and click **New discussion**. If GitHub says it didn't recognize the category, choose **Share a Project** from the list it shows and click **Get started**. The form asks for:
 - the name and a short description
 - what problem it solves for Flame artists
 - the type (Python hook, Matchbox, OpenFX plugin, standalone tool, docs) and the area of Flame it's for
