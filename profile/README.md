@@ -32,6 +32,6 @@ Much of the Logik community's work lives outside this org. We link to it rather 
 
 **🤝 Contribute.** Fix a bug, improve docs or test on your setup. Read the [contributing guide](https://github.com/flamelogik/.github/blob/main/CONTRIBUTING.md). No GitHub experience needed.
 
-**💡 Propose a new tool.** Have something the community could build together? [Propose a repo](https://github.com/flamelogik/.github/blob/main/PROPOSING_A_REPO.md).
+**📦 Bring your project.** Built a tool, or building one, that you'd like hosted here? [Share a project](https://github.com/flamelogik/.github/blob/main/PROPOSING_A_REPO.md). Just have an idea for something you'd like to exist? Post it in [Ideas](https://github.com/orgs/flamelogik/discussions/categories/ideas).
 
 Everyone here follows our [Code of Conduct](https://github.com/flamelogik/.github/blob/main/CODE_OF_CONDUCT.md).

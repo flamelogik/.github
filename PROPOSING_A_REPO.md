@@ -1,16 +1,20 @@
-# Proposing a new repo
+# Sharing a project
 
-Have a tool, script, shader collection or plugin you'd like to develop *with* the community? Propose it as a community repo.
+Built a tool, script, shader collection or plugin, or building one, that you'd like to host in the Logik org and develop *with* the community? Share it as a community project.
+
+**This is for work that you, or someone you name, will maintain.** It doesn't have to be finished, but it does need an owner.
+
+**Just have an idea** for a tool you'd like to exist? That goes in **Discussions → Ideas**. There's no form and no commitment, and someone may pick it up.
 
 ## 1. Check first
 - Is there already a community repo that does this, or nearly does? Contributing there is usually better than starting fresh.
-- Still rough? Post it in **Discussions → Ideas** to get feedback before writing a full proposal.
+- Not sure it's ready? Post it in **Discussions → Ideas** to get feedback before sharing it here.
 
-## 2. Submit the proposal
-Go to [Discussions → Repo Proposals](https://github.com/orgs/flamelogik/discussions/categories/repo-proposals) and click **New discussion**. The form asks for:
+## 2. Share it
+Go to [Discussions → Share a Project](https://github.com/orgs/flamelogik/discussions/categories/share-a-project) and click **New discussion**. The form asks for:
 - the name and a short description
 - what problem it solves for Flame artists
-- the type (Python hook, Matchbox, OpenFX plugin, standalone tool, docs)
+- the type (Python hook, Matchbox, OpenFX plugin, standalone tool, docs) and the area of Flame it's for
 - supported Flame versions and operating systems
 - the license (MIT by default)
 - who will maintain it (usually you)
@@ -20,7 +24,7 @@ Go to [Discussions → Repo Proposals](https://github.com/orgs/flamelogik/discus
 Anyone can comment, ask questions or offer to help. Owners may ask for changes.
 
 ## 4. Decision (within 14 days of the comment period closing)
-An owner reviews the proposal against these criteria:
+An owner reviews the submission against these criteria:
 - useful to Flame artists beyond one facility
 - doesn't duplicate an existing community repo
 - has a named maintainer
@@ -29,7 +33,7 @@ An owner reviews the proposal against these criteria:
 - contains no Autodesk-proprietary material, client media or secrets
 - for compiled tools: includes the full source, and releases are built by GitHub Actions
 
-Accepted proposals get the `accepted` label. Declined ones get `declined`, with an explanation of what (if anything) would change the answer.
+Accepted submissions get the `accepted` label. Declined ones get `declined`, with an explanation of what (if anything) would change the answer.
 
 ## 5. After approval
 - An owner creates the repo from the standard template and makes you its **maintainer**. You'll get an org invitation.
