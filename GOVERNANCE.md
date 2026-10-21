@@ -32,9 +32,11 @@ Owner approval (🔑) is needed for these decisions:
 - changing this document, the code of conduct or other org-wide policies
 - granting any exception to the [repo standards](REPO_STANDARDS.md)
 
-**Current rule (interim):** approval from **one owner** is enough. Two of the three current owners are inactive, and this keeps the org moving. While only one owner is active, that owner can also merge their own pull requests to the infrastructure repos without a second review, since there is nobody else to review them. This ends with the switch below.
+**Rule:** 🔑 decisions need approval from **two owners**. An owner counts as active when they have responded to an owner request within the last 90 days. The person asking for a decision does not count as one of the two.
 
-**Planned rule:** once the org has **at least two active owners**, 🔑 decisions need approval from **2 of 3 owners**. An owner counts as active when they have responded to an owner request within the last 90 days. The switch is recorded in the [decision log](https://github.com/flamelogik/org-handbook/blob/main/DECISIONS.md).
+**Fallback:** while fewer than two owners are active, one active owner's approval is enough, so the org keeps moving. That was the rule from the relaunch until a second owner became active in October 2026; the switch is recorded in the [decision log](https://github.com/flamelogik/org-handbook/blob/main/DECISIONS.md).
+
+**Infrastructure repos:** an owner's pull request to `.github`, `org-handbook` or `repo-template` should be reviewed by another owner. The branch rules still let an owner merge their own, which stays for now so a lone active owner can never be locked out; whether to remove it is reviewed once two owners have been active for 90 days.
 
 Day-to-day decisions within a repo (which PRs to merge, what the roadmap is) belong to that repo's maintainers.
 
