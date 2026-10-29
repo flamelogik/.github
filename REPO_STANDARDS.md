@@ -71,7 +71,7 @@ The repo's own license is covered under [Required files](#required-files). This 
 
 ### Model files
 - **No repo may include model files.** Users download them after installing, either themselves or through the tool's code at runtime. That way responsibility for complying with a model's license rests with the user who downloads it, not with the repo's owners.
-- If the tool downloads a model for the user, its interface must show that model's license, or link to it, and record the user's acceptance, with a button or similar, before downloading. The repo's own license is not the one that matters here.
+- If the tool downloads a model for the user, its interface must show the model's licenses, to the degree they can be established, covering the code, the weights and the training data, and record the user's acceptance, with a button or similar, before downloading. Where sources disagree, for example a model card and the model's original publication, say so rather than pick one. This is about the model's terms, not this tool's own license.
 
 ### License section in the README
 Repos that include third-party libraries, or that use model files, must have a **License** section in the README. It lists every component used at runtime that has its own license, whether it's compiled in or downloaded, so users know up front what license terms come with using the tool.
