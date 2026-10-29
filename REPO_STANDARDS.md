@@ -71,7 +71,7 @@ The repo's own license is covered under [Required files](#required-files). This 
 
 ### Model files
 - **No repo may include model files.** Users download them after installing, either themselves or through the tool's code at runtime. That way responsibility for complying with a model's license rests with the user who downloads it, not with the repo's owners.
-- If the tool downloads a model for the user, its interface must show the repo's license notice and record the user's acceptance, with a button or similar, before downloading.
+- If the tool downloads a model for the user, its interface must show the model's licenses, to the degree they can be established, covering the code, the weights and the training data, and record the user's acceptance, with a button or similar, before downloading. Where sources disagree, for example a model card and the model's original publication, say so rather than pick one. This is about the model's terms, not this tool's own license.
 
 ### License section in the README
 Repos that include third-party libraries, or that use model files, must have a **License** section in the README. It lists every component used at runtime that has its own license, whether it's compiled in or downloaded, so users know up front what license terms come with using the tool.
@@ -120,11 +120,11 @@ Each repo declares `None`, `Simple` or `Advanced` in its README.
 |---|---|---|---|
 | None | No acceptance tests | — | Published as a normal release |
 | Simple | Automatically, as part of the release build | One: Linux or macOS, whichever runner is available | The build only succeeds if the whole suite passes |
-| Advanced | Offline, on maintainers' own machines | Both macOS and Linux | Published as a pre-release until the tests pass on both platforms |
+| Advanced | Offline, on maintainers' own machines | Every platform the release ships for | Published as a pre-release until the tests pass on every platform it ships for |
 
-Simple tests only need one platform because they're less likely to depend on the hardware. Advanced tests need both, because GPU and library support differ so much between macOS and Linux.
+Simple tests only need one platform because they're less likely to depend on the hardware. Advanced tests need every platform the release ships for, because GPU and library support differ so much between macOS and Linux. A tool that ships for one platform only needs that one.
 
-For a repo with advanced tests, the release build publishes the release as usual but marks it as a pre-release. Once the tests have been run offline and pass on both macOS and Linux, a maintainer notes the results in the release notes, including the OS and GPU each was run on, and removes the pre-release label.
+For a repo with advanced tests, the release build publishes the release as usual but marks it as a pre-release. Once the tests have been run offline and pass on every platform the release ships for, a maintainer notes the results in the release notes, including the OS and GPU each was run on, and removes the pre-release label.
 
 We don't use self-hosted runners.
 
